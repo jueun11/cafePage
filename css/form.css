@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif KR", serif;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-1:#fff;
+  --color-2:#331E18;
+  --color-3:#FDE6B6;
+  --color-4:#BCA1A1;
+  --color-5:#3CB371;
+  --color-5:#fff;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: 30vh;
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+}
+header > nav {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+header > nav > #title {
+  display: flex;
+  flex-direction: row;
+}
+header > nav > #title > div:nth-child(1) {
+  width: 3vh;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > nav > #title > div:nth-child(1) > img {
+  width: 100%;
+}
+header > nav > #title > h1 {
+  font-size: 2vh;
+  color: var(--color-1);
+  margin-left: 1vw;
+  font-weight: 400;
+}
+header > nav > #menu {
+  display: flex;
+}
+header > nav > #menu > li {
+  margin-left: 3vw;
+}
+header > nav > #menu > li > h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+header > nav > #menu > li > h2 > a {
+  color: var(--color-1);
+}
+header > nav > #menu > li > ul {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#menuBg {
+  width: 100vw;
+  justify-content: center;
+  z-index: -1;
+  display: none;
+  position: fixed;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  top: 0vh;
+}
+
+.menu_sub {
+  height: 20vh;
+  overflow: hidden;
+  display: none;
+}
+
+.menu_sub > li {
+  display: none;
+}
+.menu_sub > li > a {
+  color: var(--color-1);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=form.css.map */

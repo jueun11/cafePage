@@ -1,0 +1,200 @@
+#menu > li:nth-child(2) > h2 > a {
+  color: var(--color-3);
+}
+
+main {
+  width: 100%;
+  overflow-x: hidden;
+}
+main > div:nth-child(1) > div:nth-child(2) {
+  height: 15vh;
+  background-image: url(/mark_up/image/banner/1.png);
+}
+main > div:nth-child(2) > div:nth-child(1) {
+  background-image: url(/mark_up/image/banner/coffee_banner.png);
+}
+main > div:nth-child(3) > div:nth-child(1) {
+  background-image: url(/mark_up/image/banner/fruit\ drink.png);
+}
+main > div:nth-child(4) > div:nth-child(1) {
+  background-image: url(/mark_up/image/banner/tea_banner.png);
+}
+main > div:nth-child(5) > div:nth-child(1) {
+  background-image: url(/mark_up/image/banner/dessert_banner.png);
+}
+main > div:nth-child(6) {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main > div:nth-child(6) > #cupBg {
+  width: 100vw;
+  height: 25vh;
+  z-index: -1;
+  position: absolute;
+}
+main > div:nth-child(6) > #cupBg > div:nth-child(1) {
+  width: 100vw;
+  height: 25vh;
+}
+main > div:nth-child(6) > #cupBg > div:nth-child(2) {
+  width: 100vw;
+  height: 25vh;
+  background-image: url(/mark_up/image/banner/ad.png);
+}
+main > div:nth-child(6) > div:nth-child(2) {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main > div:nth-child(6) > div:nth-child(2) > h2 {
+  text-align: center;
+  color: var(--color-3);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+main > div:nth-child(6) > div:nth-child(2) > div:nth-child(2) {
+  width: 40vw;
+  margin: 1vh;
+}
+main > div:nth-child(6) > div:nth-child(2) > p {
+  color: var(--color-3);
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
+.menu {
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+}
+.menu > .Bg {
+  width: 100%;
+  height: 35vh;
+  position: absolute;
+  z-index: -3;
+}
+.menu > .Bg > div:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+}
+.Bg {
+  width: 100%;
+  height: 35vh;
+  position: absolute;
+  z-index: -2;
+}
+
+.menu-line {
+  width: 25vw;
+  height: 1px;
+  background: linear-gradient(to right, rgba(249, 246, 222, 0), rgb(249, 246, 222), rgba(249, 246, 222, 0));
+}
+
+.menu-right {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.menu-right > div {
+  margin-right: 15vw;
+  width: 30vw;
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-right > div > div:nth-child(1) {
+  position: relative;
+  left: -3vw;
+}
+.menu-right > div > div:nth-child(2) {
+  color: var(--color-3);
+}
+.menu-right > div > div:nth-child(2) > h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.menu-right > div > div:nth-child(2) > p {
+  margin-top: 1vh;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.menu-right > div > div:nth-child(3) {
+  position: relative;
+  left: 3vw;
+}
+
+.menu-left {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.menu-left > div {
+  margin-left: 15vw;
+  width: 30vw;
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-left > div > div:nth-child(1) {
+  position: relative;
+  left: -3vw;
+}
+.menu-left > div > div:nth-child(2) {
+  color: var(--color-3);
+}
+.menu-left > div > div:nth-child(2) > h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.menu-left > div > div:nth-child(2) > p {
+  margin-top: 1vh;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.menu-left > div > div:nth-child(3) {
+  position: relative;
+  left: 3vw;
+}
+
+.dark {
+  width: 100vw;
+  height: 35vh;
+  position: absolute;
+  z-index: 2;
+  top: 0vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark2 {
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  z-index: 10;
+  top: 0vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dark3 {
+  width: 100vw;
+  height: 25vh;
+  position: absolute;
+  z-index: 10;
+  top: 0vh;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=menu.css.map */

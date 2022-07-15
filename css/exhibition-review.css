@@ -1,0 +1,103 @@
+#menu > li:nth-child(3) > h2 > a {
+  color: var(--color-3);
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+main > section {
+  margin-top: 10vh;
+  width: 60vw;
+  overflow-x: hidden;
+}
+main > section > div:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+main > section > div:nth-child(2) {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main > section > div:nth-child(2) > div {
+  width: 18vw;
+}
+main > section > div:nth-child(2) > div > img {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+main > section > div:nth-child(2) > div > div {
+  padding: 2vh;
+  background-color: antiquewhite;
+  margin-bottom: 5vh;
+}
+
+#headBg {
+  height: 35vh;
+  width: 100vw;
+}
+#headBg > div:nth-child(1) {
+  position: absolute;
+  z-index: -1;
+}
+#headBg > div:nth-child(1) > .dark {
+  height: 35vh;
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#headBg > div:nth-child(1) > div:nth-child(2) {
+  height: 35vh;
+  width: 100vw;
+  background-image: url(/mark_up/image/page-bg/exhibition-reviewBg.png);
+}
+
+.menu-left {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.menu-left > div {
+  margin-top: 2vh;
+  margin-left: 15vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-left > div > div:nth-child(1) {
+  position: relative;
+  left: -3vw;
+}
+.menu-left > div > div:nth-child(2) {
+  color: var(--color-3);
+}
+.menu-left > div > div:nth-child(2) > h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.menu-left > div > div:nth-child(2) > p {
+  margin-top: 1vh;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.menu-left > div > div:nth-child(3) {
+  position: relative;
+  left: 3vw;
+}
+
+.menu-line {
+  width: 25vw;
+  height: 1px;
+  margin: 2vh;
+  background: linear-gradient(to right, rgba(249, 246, 222, 0), rgb(249, 246, 222), rgba(249, 246, 222, 0));
+}/*# sourceMappingURL=exhibition-review.css.map */
