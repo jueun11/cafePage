@@ -1,0 +1,114 @@
+#mainBg{
+  position: absolute;
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+  &>div:nth-child(1){
+    height: 100vh;
+    height: 100vh;
+    position:relative;
+    overflow: hidden;
+    background-image: url("/mark_up/image/page-bg/mainBg.png");
+    background-position: center center;
+  }
+  &>div:nth-child(2){
+    position: absolute;    
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.2);
+  }
+}
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &>section{
+    // border: 1px solid red;
+    width: 80vw;
+    margin-top: 30vh;
+    &>div:nth-child(1){
+      color: var(--color-1);
+      &>h1{
+        font-size: 3.5rem;
+        font-weight: 400;
+        &>span{
+          color: var(--color-3);
+        }
+      }
+      &>p{
+        font-size: 1.2rem;
+        margin-top: 2vh;
+        font-weight: 200;
+
+      }
+    }
+    &>div:nth-child(2){
+      width: 13vw;
+      height: 5vh;
+      background-color: var(--color-3);
+      display: flex;
+      border-radius: 50px;
+      justify-content: space-between;
+      padding-left: 1vw;
+      align-items: center;
+      padding-right: 1vw;
+      margin-top: 7vh;
+      &>h3{
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      &>div:nth-child(2){
+        width: 5vh;
+        height: 2vh;
+        background-color: #c4c4c4;
+      }
+    }
+  }
+  &>#mainPopup{
+    width: 8vw;
+    height: 16vh;
+    position: absolute;
+    bottom: 15vh;
+    right: 10vw;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0,0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &>div:nth-child(1){
+      color: var(--color-1);
+      font-weight: 400;
+    }
+    &>div:nth-child(2){
+      display: flex;
+      justify-content: flex-end;
+      &>P{
+        width: 4vw;
+        border: 1px solid var(--color-1);
+        display: flex;
+        color: var(--color-1);
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  &>#social{
+    height: 3vh;
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    display: flex;
+    justify-content: space-between;
+    &>div{
+      width: 3vh;
+      height: 3vh;
+      background-color: #c4c4c4;
+      margin-right: 1vw;
+    }
+  }
+}
